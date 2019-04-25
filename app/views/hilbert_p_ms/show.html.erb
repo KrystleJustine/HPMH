@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @hilbert_pm.name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @hilbert_pm.location %>
+</p>
+
+<%= link_to 'Edit', edit_hilbert_pm_path(@hilbert_pm) %> |
+<%= link_to 'Back', hilbert_pms_path %>
